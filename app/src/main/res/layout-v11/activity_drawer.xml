@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--아직 구체적인 메뉴가 나오지 않아서 일단 #textview로 구현했음-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="330dp"
+    android:layout_height="match_parent"
+    android:layout_gravity ="start"
+    android:background="#FFFFFF"
+    android:id="@+id/drawer_layout"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_close"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:backgroundTint="#07FFFFFF"
+        android:rotationX="360"
+        app:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:iconTint="#807B7B"
+        app:rippleColor="#00FDFCFC"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/headline"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:textSize="18sp"
+        android:translationY="80dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:textSize="18sp"
+        android:translationY="110dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:textSize="18sp"
+        android:translationY="140dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:textSize="18sp"
+        android:translationY="170dp" />
+
+</LinearLayout>
